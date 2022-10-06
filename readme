@@ -7,3 +7,12 @@ docker build -t springio/gs-spring-boot-docker .
 #kubectl create service clusterip demo --tcp=8080:8080 --dry-run -o=yaml >> deployment.yaml
 
 kubectl apply -f deployment.yaml
+
+-------------------------------------------
+git config --global user.email "wxb820901@gmail.com"
+git config --global user.password "XXXXX"
+git remote add origin https://github.com/wxb820901/devops-demo.git
+
+git config --global user.email "wxb820901@126.com"
+git config --global user.password "XXXXX"
+git remote add gitee https://gitee.com/wang-xiaobing/devops-demo.git
