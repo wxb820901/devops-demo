@@ -1,0 +1,9 @@
+# enable all actuator endpoint
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+
+

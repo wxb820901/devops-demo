@@ -1,0 +1,9 @@
+mvn clean install -DskipTests
+
+docker build -t springio/gs-spring-boot-docker .
+#docker run -p 8080:8080 springio/gs-spring-boot-docker
+
+#kubectl create deployment demo --image=springio/gs-spring-boot-docker --dry-run -o=yaml > deployment.yaml
+#kubectl create service clusterip demo --tcp=8080:8080 --dry-run -o=yaml >> deployment.yaml
+
+kubectl apply -f deployment.yaml
