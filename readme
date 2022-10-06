@@ -10,9 +10,12 @@ kubectl apply -f deployment.yaml
 
 -------------------------------------------
 git config --global user.email "wxb820901@gmail.com"
-git config --global user.password "XXXXX"
+git config --global user.password "G00XXXXX"
 git remote add origin https://github.com/wxb820901/devops-demo.git
+git push origin master
+
 
 git config --global user.email "wxb820901@126.com"
-git config --global user.password "XXXXX"
+git config --global user.password "GooXXXXX"
 git remote add gitee https://gitee.com/wang-xiaobing/devops-demo.git
+git push gitee master
